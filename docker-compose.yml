@@ -1,0 +1,8 @@
+services:
+  currency-service:
+    container_name: currency-service
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8100:8100
